@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "918588681602",
+    "firebase_url": "https://fir-app-54aff.firebaseio.com",
+    "project_id": "fir-app-54aff",
+    "storage_bucket": "fir-app-54aff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918588681602:android:cce516b22c1bb799",
+        "android_client_info": {
+          "package_name": "com.loyola.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918588681602-6c5i9l8vhsenffsdam6f8eqlni05lme3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.loyola.firebaseapp",
+            "certificate_hash": "43dce5c4f34616b36a14f193f21e0d471f5131b3"
+          }
+        },
+        {
+          "client_id": "918588681602-q4dcmu33sgqbkh6i7fihgsivfnccrlld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4Y7-VC06dNuORK8M0D0jT9eM56lerPMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918588681602-q4dcmu33sgqbkh6i7fihgsivfnccrlld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
