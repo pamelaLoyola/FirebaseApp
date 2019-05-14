@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
     android:orientation="vertical"
     android:gravity="center">
 
@@ -22,11 +23,11 @@
         android:padding="32dp">
 
         <ImageView
-            android:layout_width="64dp"
-            android:layout_height="64dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
             android:layout_gravity="center"
             android:layout_marginBottom="16dp"
-            android:src="@mipmap/ic_launcher" />
+            android:src="@drawable/tec_unity" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -42,7 +43,7 @@
                     android:id="@+id/email_input"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Email"
+                    android:hint="Ingrese su e-mail"
                     android:inputType="textEmailAddress"
                     android:maxLines="1" />
 
@@ -57,7 +58,7 @@
                     android:id="@+id/password_input"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Password"
+                    android:hint="Ingrese su contraseña"
                     android:inputType="textPassword"
                     android:maxLines="1" />
 
@@ -67,9 +68,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:text="Sign In"
+                android:text="INICIAR SESIÓN"
                 android:textStyle="bold"
-                android:background="@color/colorPrimary"
+                android:background="@android:color/holo_orange_dark"
                 android:textColor="@android:color/white"
                 android:onClick="callLogin"/>
 
@@ -77,9 +78,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:text="Register"
+                android:text="REGISTRAR"
                 android:textStyle="bold"
-                android:background="@color/colorPrimary"
+                android:background="@android:color/holo_orange_dark"
                 android:textColor="@android:color/white"
                 android:onClick="callRegister"/>
 
